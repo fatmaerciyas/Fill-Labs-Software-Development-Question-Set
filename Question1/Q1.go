@@ -5,8 +5,6 @@ import (
 	"fmt"
 )
 
-// a global variable to write output once
-
 
 func main() {
 
@@ -21,7 +19,7 @@ func main() {
 	// scanning the input by the user
 	fmt.Scanln(&inputFromUser)
 
-	if inputFromUser == "X"{
+	if inputFromUser == "X" || inputFromUser == "x"{
 		flag = false
 	} else{
 
