@@ -136,7 +136,7 @@ func MaxLen(slice []string) int {
 	
  }
 
-/*This code can be written more easily and quickly using ready-made functions and methods. But I chose to use algorithms because the tests measure our ability to use algorithms.
+/*This code can be written more easily and quickly using ready-made functions and methods. But I chose to use radix sort algorithm because the tests measure our ability to use algorithms.
 Simpler code example:*/
 
 
