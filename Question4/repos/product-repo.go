@@ -1,8 +1,8 @@
 package repos
 
 import (
+	"Question4/entities"
 	"fmt"
-	"github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set"
 )
 
 type ProductRepo struct {

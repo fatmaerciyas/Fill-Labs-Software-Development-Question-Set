@@ -1,4 +1,4 @@
-module github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set
+module Question4
 
 go 1.21.5
 
