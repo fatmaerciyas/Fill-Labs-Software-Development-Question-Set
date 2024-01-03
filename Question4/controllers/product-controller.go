@@ -1,11 +1,12 @@
 package controllers
 
 import (
-	"Question4/entities"
-	"Question4/repos"
 	"encoding/json"
 	"net/http"
 	"strconv"
+
+	"github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set/tree/main/Question4/entities"
+	"github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set/tree/main/Question4/repos"
 
 	"github.com/gorilla/mux"
 )
@@ -21,7 +22,6 @@ func CreateProduct(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(product)
 	w.WriteHeader(http.StatusCreated)
 }
-
 func GetProducts(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(productRepo.GetList())

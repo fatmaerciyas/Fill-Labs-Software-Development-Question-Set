@@ -1,10 +1,11 @@
 package main
 
 import (
-	"Question4/controllers"
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set/tree/main/Question4/controllers"
 
 	"github.com/gorilla/mux"
 )

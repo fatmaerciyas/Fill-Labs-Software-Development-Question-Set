@@ -1,7 +1,7 @@
 package repos
 
 import (
-	"Question4/entities"
+	"github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set/tree/main/Question4/entities"
 	"fmt"
 )
 
@@ -54,3 +54,7 @@ func (p *ProductRepo) DeleteOne(id uint) (bool, error) {
 	}
 	return false, fmt.Errorf("key '%d' not found", id)
 }
+
+
+// C:\Users\fatma\source\repos\Fill-Labs-Software-Development-Question-Set\Question4
+// C:\Users\fatma\source\repos\Fill-Labs-Software-Development-Question-Set\Question4\controllers\product-controller.go
