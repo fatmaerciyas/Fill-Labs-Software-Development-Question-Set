@@ -16,3 +16,5 @@ I assumed the algorithm for this question that the input number is halved until 
 Write a function that takes one parameter as an array/list. Find the most repeated data within a given array.
 Answer is:
 In this question, I used the interface {} data structure to hold an array consisting of different data types. Created a loop inside the array, and using a counter. Found which data is repeated the most. If two pieces of data have the same maximum repetition count, printed both.
+
+![png-transparent-golang-hd-logo](https://github.com/fatmaerciyas/Fill-Labs-Software-Development-Question-Set/assets/55760365/6f2001e2-b393-415b-9598-60634822281f)
