@@ -4,15 +4,15 @@ This repository consists of three questions and their answers asked to learn the
 
 ## Question 1:
 Write a function that sorts a bunch of words by the number of character "a"s within the word (decreasing order). If some words contain the same amount of character "a"s, then you need to sort those words by their lengths.
-## Answer 1:
+Answer is:
 After running the program, enter each element you want to add to the array one by one. Each time you input an element, the program will provide you with the sorted output. In this program, I used the radix sort algorithm for sorting. To exit the program, simply press the "x" key.
 
 ## Question 2:
 Write a recursive function that takes one integer parameter. Please bear in mind that finding the algorithm needed to generate the output below is the main point of the question. If the input is 9, the output is 2.4.9.
-## Answer 2:
+Answer is:
 I assumed the algorithm for this question that the input number is halved until the end is 0, and I used a recursive function to send the output back to the function at each stage.
 
 ## Question 3:
 Write a function that takes one parameter as an array/list. Find the most repeated data within a given array.
-## Answer 3:
+Answer is:
 In this question, I used the interface {} data structure to hold an array consisting of different data types. Created a loop inside the array, and using a counter. Found which data is repeated the most. If two pieces of data have the same maximum repetition count, printed both.
